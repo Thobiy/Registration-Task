@@ -1,0 +1,115 @@
+@media screen and (max-width: 375px) {
+    body{ flex-direction: column;
+        background-color: yellow;
+    }
+    }
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-image: url("bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%) ;  
+    Font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    
+   
+}
+
+
+.cont{
+    display: flex;
+   flex-wrap: wrap;
+  
+}
+.left{
+    width: 33%;
+    margin:  auto;
+    color: white;
+}
+
+.right{
+    margin: 40px auto;
+   
+}
+
+
+.box{
+    background-color: white;
+    padding: 0 25px;
+    border-radius: 10px;
+
+   
+
+   
+    
+}
+h1{
+    font-weight: 700;
+    
+
+}
+p{
+    padding: 10px;
+    
+}
+button{
+    width: 100%;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    margin: 15px 0;
+    padding: 30px 0 ;
+    border: 1px solid hsl(248, 32%, 49%);
+    border-radius: 10px;
+
+    font-weight: 700;
+    Font-size: 16px;
+
+}
+.down{
+    font-size: small;
+    text-align: center;
+}
+.term{color: red;}
+.then{
+    font-weight: 400;
+}
+#submit{
+  
+   
+   background-color: hsl(154, 59%, 51%); 
+   color: white;
+   padding: 10px;
+   border: 1px solid hsl(154, 59%, 51%);
+   border-radius: 5px;
+   margin-top: 30px;
+   width: 100%;
+   font-weight: 500;
+   Font-size: 16px;
+   text-align: center;
+  
+   
+}
+#fname, #lname, #mail, #pass {
+    width: 90%;
+    padding: 15px;
+    margin-top: 30px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    Font-size: 16px;
+   font-weight: 700;
+   
+    
+}
+@media screen and (max-width: 375px) {
+    .cont{ flex-direction: column;
+        margin: 15px;
+    }
+    .left{width: 100%;
+        text-align: center;
+       
+    
+        color: white;
+    }
